@@ -7,7 +7,7 @@ default: &default
 
 development:
   <<: *default
-  database: test
+  database: rubytest
   username: root
   password: root
   host: 0.0.0.0
